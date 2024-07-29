@@ -10,6 +10,7 @@ html {
    
     font-size: 62.5%;
     overflow-x: hidden;
+    
 
 }
 
@@ -19,6 +20,7 @@ body {
     font-weight: 400;
     color: #fffcfc;
     overflow-x: hidden;
+    background-color: #131212;
 }
 
 
@@ -65,7 +67,7 @@ body {
 .heading-secondary,
 .heading-tertiary {
     font-weight: 700;
-    color: #333;
+    color: #f1eded;
     /* color: #45260a; */
     /* color: #343a40; */
     letter-spacing: -0.5px;
@@ -99,21 +101,7 @@ body {
     letter-spacing: 0.75px;
 }
 
-.link:link,
-.link:visited {
-    display: inline-block;
-    color: #000000;
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
-    transition: all 0.3s;
-}
 
-.link:hover,
-.link:active {
-    color: #cf711f;
-    border-bottom: 1px solid transparent;
-}
 
 .list {
     list-style: none;
@@ -136,14 +124,9 @@ body {
     color: #1a1918;
 }
 
-*:focus {
-    outline: none;
-    /* outline: 4px dotted #e67e22; */
-    /* outline-offset: 8px; */
-    box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
-}
 
-/* HELPER/SETTINGS CLASSES */
+
+
 .margin-right-sm {
     margin-right: 1.6rem !important;
 }
